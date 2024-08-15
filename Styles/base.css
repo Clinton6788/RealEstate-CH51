@@ -18,6 +18,25 @@ a{
 }
 /*Header*/
 .header-main{
-    background-image: url(./img/header.jpg);
+    background-image: url(../img/header.jpg);
+    background-position: top center;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+.header-main h1{
+    margin-bottom: 2px;
+}
+.index-nav{
+    margin-right: 20px;
+    color: white;
+}
+.header-main p{
+    margin-top: 30px;
 }
 /*About Us*/
+.container{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
