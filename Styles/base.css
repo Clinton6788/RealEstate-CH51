@@ -16,6 +16,9 @@ a{
     color: black;
     text-decoration: none;
 }
+img{
+    max-width: 100%;
+}
 /*Header*/
 .header-main{
     background-image: url(../img/header.jpg);
@@ -25,18 +28,127 @@ a{
     color: white;
 }
 .header-main h1{
-    margin-bottom: 2px;
+    margin-bottom: 10px;
 }
 .index-nav{
-    margin-right: 20px;
+    padding: 1%;
     color: white;
 }
+a.index-nav:hover{
+    text-decoration: underline;
+}
 .header-main p{
-    margin-top: 30px;
+    margin-top: 100px;
 }
 /*About Us*/
 .container{
-    max-width: 60%;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+.more-about-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+.more-about-item{
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+}
+/*Houses Display*/
+.houses-title{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+
+}
+.houses-item{
+    background-color: rgb(226, 226, 226);
+    margin-left: .5%;
+    margin-right: .5%;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.houses-item-img{
+    max-width: 100%;
+}
+.houses-item-text{
+    padding: 30px;
+}
+.houses-item-text .price{
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.houses-item-text li{
+    list-style: none;
+}
+.amenities{
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 13%;
+    margin-bottom: 10px;
+}
+.amenities li{
+    display: flex;
+    max-width: 15%;
+    text-anchor: start;
+}
+.amenities p{
+    margin-left: 30%;
+
+}
+.houses-main{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Footer*/
+.footer{
+    background-image: url(../img/encuentra.jpg);
+    background-position: center;
+    background-size: 150%;
+    height: 350px;
+    color: white;
+    margin-top: 50px;
+}
+.footer-container{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footer h2{
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.footer p{
+    margin-bottom: 30px;
+}
+/*Utilities*/
+.center-title{
+    text-align: center;
+}
+.btn{
+    display: block;
+    background-color: rgb(201, 130, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: small;
+}
+.btn:hover{
+    background-color: rgb(117, 83, 19);
 }
