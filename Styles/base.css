@@ -6,7 +6,10 @@
 body{
     font-family: Arial;
 }
-h1,h2,h3{
+h1{
+    margin-bottom: 20px;
+}
+h2{
     margin: 20px;
 }
 p{
@@ -42,7 +45,7 @@ a.index-nav:hover{
 }
 /*About Us*/
 .container{
-    max-width: 50%;
+    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
