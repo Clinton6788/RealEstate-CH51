@@ -1,0 +1,189 @@
+/*Global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;
+}
+h1{
+    margin-bottom: 20px;
+}
+h2{
+    padding: 20px;
+    text-align: center;
+    border: 1px solid green;
+}
+p{
+    line-height: 2;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+/*Main*/
+.about-container{
+    max-width: 65%;
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+.about-pic{
+    border: 3px solid black;
+    height: 350px;
+    border-radius: 50%;
+}
+.about-flex{
+    display: flex;
+    padding: 15px;
+}
+.about-flex p{
+    margin-left: 6%;
+    text-indent: 5%;
+    padding-top: 40px;
+}
+.about-summary{
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 80px;
+}
+/*Blog Main*/
+.blog-container{
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: lightgrey;
+    padding-bottom: 40px;
+}
+.blog-main-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.blog-flex-left{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+.blog-flex-right{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    border: 1px solid red;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.blog-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-text p{
+    text-align: center;
+    border: 1px solid black;
+}
+.blog-text h3{
+    text-align: center;
+    border: 1px solid black;
+}
+.blog-item-container{
+    background-color: darkgray;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid darkgray;
+    border-radius: 50px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.blog-item-container p{
+    max-width: 80%;
+}
+.blog-pic{
+    border: 3px solid black;
+    height: 150px;
+    border-radius: 50%;
+}
+/*Header*/
+.header-main{
+    background-image: url(../img/header.jpg);
+    background-position: top center;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+.header-main h1{
+    margin-bottom: 10px;
+}
+.index-nav{
+    padding: 1%;
+    color: white;
+}
+a.index-nav:hover{
+    text-decoration: underline;
+}
+.header-main p{
+    margin-top: 100px;
+}
+/*Footer*/
+.footer{
+    background-image: url(../img/encuentra.jpg);
+    background-position: center;
+    background-size: 150%;
+    height: 350px;
+    color: white;
+}
+.footer-container{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footer h2{
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.footer p{
+    padding-bottom: 20px;
+}
+/*Utilities*/
+.btn{
+    display: block;
+    background-color: rgb(201, 130, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: small;
+}
+.btn:hover{
+    background-color: rgb(117, 83, 19);
+}
+.blog-btn{
+    display: block;
+    background-color: rgb(201, 130, 0);
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+}
+.blog-btn:hover{
+    text-decoration: underline;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
