@@ -6,6 +6,22 @@
 body{
     font-family: Arial;
 }
+@media (max-width: 768px){
+    body{
+        background-color: lightgray;
+    }
+    .container{
+        min-width: 90%
+    }
+    .houses-main{
+        flex-direction: column;
+    }
+    /*.footer-container{
+        max-width: 100%;
+        margin: 0;
+    }*/
+
+}
 h1{
     margin-bottom: 20px;
 }
@@ -116,6 +132,8 @@ a.index-nav:hover{
 }
 /*Footer*/
 .footer{
+    display: flex;
+    flex-direction: row;
     background-image: url(../img/encuentra.jpg);
     background-position: center;
     background-size: 150%;
@@ -124,9 +142,9 @@ a.index-nav:hover{
     margin-top: 50px;
 }
 .footer-container{
-    max-width: 50%;
+    /*max-width: 50%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
     padding-top: 80px;
     padding-bottom: 80px;
 }
