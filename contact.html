@@ -27,8 +27,8 @@
             <fieldset>
                 <legend>Personal information</legend>
                 <div class="form-control">
-                    <label>Name:</label>
-                    <input type="text">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text">
                 </div>
                 <div class="form-control">
                     <label>Email:</label>
@@ -63,12 +63,12 @@
                 <legend>Contact information</legend>
                 <div class="radios">
                     <div class="radios-sub">
-                        <label>Email:</label>
-                        <input type="radio">
+                        <label for="email">Email:</label>
+                        <input id="email" type="radio" name="form" value="email">
                     </div>
                     <div class="radios-sub">
-                        <label>Phone:</label>
-                        <input type="radio">
+                        <label for="phone">Phone:</label>
+                        <input id="phone" type="radio" name="form" value="phone">
                     </div>
                 </div>
                 <div class="form-time">
@@ -78,7 +78,7 @@
                     </div>
                     <div class="form-time-sub">
                         <label>Hour:</label>
-                        <input type="datetime">
+                        <input type="time">
                     </div>
                 </div>
             </fieldset>
