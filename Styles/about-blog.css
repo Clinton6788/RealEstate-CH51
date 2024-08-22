@@ -12,7 +12,6 @@ h1{
 h2{
     padding: 20px;
     text-align: center;
-    border: 1px solid green;
 }
 p{
     line-height: 2;
@@ -60,22 +59,8 @@ img{
 }
 .blog-main-flex{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-}
-.blog-flex-left{
-    display: flex;
-    flex-direction: column;
-    height: 800px;
-    border: 1px solid red;
-    justify-content: space-between;
-}
-.blog-flex-right{
-    display: flex;
-    flex-direction: column;
-    height: 800px;
-    border: 1px solid red;
-    justify-content: space-between;
-    margin-top: 200px;
 }
 .blog-text{
     display: flex;
@@ -84,33 +69,61 @@ img{
 }
 .blog-text p{
     text-align: center;
-    border: 1px solid black;
+    margin-bottom: 15px;
 }
 .blog-text h3{
     text-align: center;
-    border: 1px solid black;
 }
-.blog-item-container{
+.blog-item-container-left{
     background-color: darkgray;
-    width: 500px;
+    width: 70%;
     display: flex;
     flex-direction: row;
     border: 2px solid darkgray;
     border-radius: 50px;
-    height: 150px;
+    height: 100px;
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 20px;
+    margin-top: 30px;
+    border: 2px solid rgb(99, 99, 99);
+    margin-left: 2%;
+}
+.blog-item-container-right{
+    background-color: darkgray;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid darkgray;
+    border-radius: 50px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    margin-top: 30px;
+    margin-left: auto;
+    border: 2px solid rgb(99, 99, 99);
+    margin-right: 2%;
+}
+.blog-item-container-left:hover{
+    width: 72%;
+    height: 110px;
+    background-color: rgb(133, 133, 133);
+}
+.blog-item-container-right:hover{
+    width: 72%;
+    height: 110px;
+    background-color: rgb(133, 133, 133);
 }
 .blog-item-container p{
-    max-width: 80%;
+    max-width: 90%;
 }
 .blog-pic{
     border: 3px solid black;
-    height: 150px;
-    border-radius: 50%;
+    height: 100%;
+    border-radius: 30%;
 }
 /*Header*/
 .header-main{
