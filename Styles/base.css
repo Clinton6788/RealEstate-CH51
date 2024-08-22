@@ -10,17 +10,6 @@ body{
     body{
         background-color: lightgray;
     }
-    .container{
-        min-width: 90%
-    }
-    .houses-main{
-        flex-direction: column;
-    }
-    /*.footer-container{
-        max-width: 100%;
-        margin: 0;
-    }*/
-
 }
 h1{
     margin-bottom: 20px;
@@ -49,9 +38,19 @@ img{
 .header-main h1{
     margin-bottom: 10px;
 }
+@media (max-width: 768px){
+    .header-main h1{
+        margin-bottom: 50px;
+    }
+}
 .index-nav{
     padding: 1%;
     color: white;
+}
+@media (max-width: 768px){
+    .index-nav{
+        padding: 10%;
+}
 }
 a.index-nav:hover{
     text-decoration: underline;
@@ -65,16 +64,34 @@ a.index-nav:hover{
     margin-left: auto;
     margin-right: auto;
 }
+@media (max-width: 768px){
+    .container{
+    max-width: 90%;
+    }
+}
 .more-about-container{
     display: flex;
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
 }
+@media (max-width: 768px){
+    .more-about-container{
+        flex-direction: column;
+    }
+}
 .more-about-item{
     padding-left: 3%;
     padding-right: 3%;
     text-align: center;
+}
+@media (max-width: 768px){
+    .more-about-item{
+        margin: 5% 0;
+    }
+    .more-about-item h3{
+        margin: 2% 0;
+    }
 }
 /*Houses Display*/
 .houses-title{
@@ -130,6 +147,17 @@ a.index-nav:hover{
     margin-left: auto;
     margin-right: auto;
 }
+@media (max-width: 768px){
+    .houses-main{
+        flex-direction: column;
+    }
+    .houses-item{
+        margin: 3% 0;
+    }
+    .houses-title{
+        margin-top: 10%;
+    }
+}
 /*Footer*/
 .footer{
     display: flex;
@@ -142,9 +170,9 @@ a.index-nav:hover{
     margin-top: 50px;
 }
 .footer-container{
-    /*max-width: 50%;
+    max-width: 50%;
     margin-left: auto;
-    margin-right: auto;*/
+    margin-right: auto;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -154,6 +182,16 @@ a.index-nav:hover{
 }
 .footer p{
     margin-bottom: 30px;
+}
+@media (max-width: 768px){
+    .footer-container{
+        max-width: 90%;
+    }
+    .footer{
+        height: 300px;
+        background-size: cover;
+        padding-bottom: 30%;
+    }
 }
 /*Utilities*/
 .center-title{
